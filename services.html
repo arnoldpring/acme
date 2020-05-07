@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acme Web Design | Services</title>
+    <link rel="stylesheet" href="dist/style.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+  </head>
+  <body>
+    <header>
+      <div class="header-wrap text-white text-center bg-gray-800 md:flex block justify-between items-center md:px-32 px-20 py-10">
+        <div id="branding">
+          <h1 class="text-3xl font-bold"><span class="highlight text-orange-700">Acme</span class=""> Web Design</h1>
+        </div>
+        <nav>
+          <ul class="flex justify-between text-lg font-semibold">
+            <li class="md:pl-8 pl-0"><a href="index.html">HOME</a></li>
+            <li class="md:pl-8 pl-0"><a href="about.html">ABOUT</a></li>
+            <li class="current md:pl-8 pl-0"><a href="services.html">SERVICES</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="newsletter">
+      <div class="newsletter-wrap bg-gray-800 md:flex block justify-between text-white px-10 py-8 font-bold text-xl">
+        <h1 class="md:text-2xl text-center sm:text-4xl text-3xl">Subscribe To Our Newsletter</h1>
+        <form>
+          <input type="email" class="py-1 md:my-0 my-2 md:w-56 w-full" placeholder="  Enter Email...">
+          <button type="submit" class="button_1 md:w-32 w-full  bg-orange-700 py-1 px-4">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="main">
+      <div class="main-wrap md:flex block w-4/5 mx-auto my-6">
+        <article id="main-col" class="md:w-2/3 w-full">
+          <h1 class="page-title font-bold">Services</h1>
+          <ul id="services">
+            <li class="border border-gray-500 bg-gray-200 mt-4 p-6">
+              <h3 class="font-bold">Website Design</h3>
+              <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem sunt doloribus est veritatis rem placeat labore facere hic doloremque maxime.</p>
+						  <p class="mt-2">Pricing: $1,000 - $3,000</p>
+            </li>
+            <li class="border border-gray-500 bg-gray-200 mt-4 p-6">
+              <h3 class="font-bold">Website Maintenance</h3>
+              <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem sunt doloribus est veritatis rem placeat labore facere hic doloremque maxime.</p>
+						  <p class="mt-2">Pricing: $250 per month</p>
+            </li>
+            <li class="border border-gray-500 bg-gray-200 mt-4 p-6">
+              <h3 class="font-bold">Website Hosting</h3>
+              <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem sunt doloribus est veritatis rem placeat labore facere hic doloremque maxime.</p>
+						  <p class="mt-2">Pricing: $25 per month</p>
+            </li>
+          </ul>
+        </article>
+
+        <aside id="sidebar" class="mx-auto md:w-3/12 w-full">
+          <div class="dark bg-gray-800 text-white p-4">
+            <h3 class="font-bold my-3">Get A Quote</h3>
+            <form class="quote">
+  						<div>
+  							<label>Name</label><br>
+  							<input class="w-full" type="text" placeholder=" Name">
+  						</div>
+  						<div>
+  							<label>Email</label><br>
+  							<input class="w-full" type="email" placeholder=" Email Address">
+  						</div>
+  						<div>
+  							<label>Message</label><br>
+  							<textarea class="w-full" placeholder=" Message"></textarea>
+  						</div>
+  						<button class="button_1 bg-orange-700 py-2 md:w-20 w-full" type="submit">Send</button>
+					</form>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <footer class="bg-orange-700 text-white text-lg h-20 flex justify-center items-center">
+      <p>Acme Web Design, Copyright &copy; 2017</p>
+    </footer>
+  </body>
+</html>
